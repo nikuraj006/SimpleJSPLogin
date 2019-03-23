@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>User Login</title>
+          <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+           
+            <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                 <h1>User Login</h1>
+                <form action="main/userValidation.jsp" method="post">
+                <table>
+                    <tr>
+                        <td>User ID:</td>
+                        <td><input type="text" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Login">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="pwdReset.html">Reset password</a>
+                        </td>
+                    </tr>
+                    
+                </table>                                        
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+    </body>
+</html>
